@@ -1,0 +1,42 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+body {
+    background: rgb(10 13 37);
+    margin: center;
+    text-align: center;
+}
+
+.games1 {
+    background: #7032a3;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 100px;
+    margin: 100px;
+    padding: 20px;
+    position: relative;
+    transition: all 400ms ease;
+    width: 800px;
+}
+
+.games1:hover {
+    animation: bounce 1s;
+}

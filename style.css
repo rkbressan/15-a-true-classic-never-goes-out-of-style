@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: rgb(10 13 37);
+}
+
+div#space {
+    height: 250px;
+}
+
+div#ricardo {
+    color: white;
+    font: bold 100pt Arial;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgb(108, 2, 116)
+}
+
+div#desenvolvedor {
+    color: white;
+    font: normal 25pt Arial;
+    height: 150px;
+    line-height: 100px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgb(108, 2, 116)
+}
+
+div#enter {
+    text-align: center;
+}
+
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 100px;
+    padding: 0;
+    height: auto;
+    width: 300px;
+}
+
+button span {
+    background: linear-gradient(180deg, #fbee02, #2302fb);
+    border-radius: 100px;
+    display: block;
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+    font-size: 2rem;
+    font-weight: 600;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+    transition: all 0.15s ease-out;
+}
