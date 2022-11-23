@@ -40,3 +40,23 @@ body {
 .games1:hover {
     animation: bounce 1s;
 }
+
+.series1 {
+    background: #7032a3;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 100px;
+    margin: 100px;
+    padding: 20px;
+    position: relative;
+    transition: all 400ms ease;
+    width: 800px;
+}
+
+.series1:hover {
+    animation: bounce 1s;
+}
