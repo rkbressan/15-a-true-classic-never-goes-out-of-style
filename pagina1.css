@@ -41,7 +41,7 @@ body {
     animation: bounce 1s;
 }
 
-.series1 {
+.portfolio1 {
     background: #7032a3;
     border: none;
     border-radius: 10px;
@@ -57,6 +57,6 @@ body {
     width: 800px;
 }
 
-.series1:hover {
+.portfolio1:hover {
     animation: bounce 1s;
 }
