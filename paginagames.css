@@ -1,4 +1,44 @@
 body {
-    margin: 0;
     background: rgb(10 13 37);
+    margin: center;
+    text-align: center;
+}
+
+.botaolol {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.efeitolol {
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    transition: all 400ms ease;
+}
+
+.leagueoflegends {
+    background-color: #28348A;
+}
+
+.leagueoflegends:before {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    content: '';
+    height: 64px;
+    left: 0px;
+    position: absolute;
+    transition: all 2s ease;
+    top: 0px;
+    width: 0px;
+}
+
+.leagueoflegends:hover:before {
+    width: 100%;
 }
